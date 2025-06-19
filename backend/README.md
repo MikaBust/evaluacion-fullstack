@@ -29,7 +29,7 @@ npm install
 npm run start:dev
 ```
 
-## 🔌 Endpoints principales
+## Endpoints principales
 
 | Método | Ruta               | Descripción                       |
 |--------|--------------------|------------------------------------|
