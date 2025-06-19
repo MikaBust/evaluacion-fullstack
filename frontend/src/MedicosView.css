@@ -1,0 +1,104 @@
+.medicos-container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.filtros-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #222;
+    align-items: flex-start;
+}
+
+.filtro-selects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.filtro-selects .filtro-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtro-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 250px;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.filtro-item label {
+    font-weight: 500;
+    color: #333;
+    font-size: 1.05rem;
+}
+
+.filtro-item input,
+.filtro-item select {
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #999;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #222;
+    transition: border 0.2s ease;
+}
+
+.filtro-item input:focus,
+.filtro-item select:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.filtros-container input,
+.filtros-container select {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 250px;
+    max-width: 100%;
+    color: #222;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.dx-datagrid {
+    min-width: 900px;
+    border: 1px solid #222;
+    background-color: #fff;
+    color: #333;
+}
+
+.dx-header-row {
+    background-color: #eaeaea;
+    font-weight: 500;
+}
+
+.dx-data-row {
+    background-color: #fff;
+}
+
+.dx-data-row:hover {
+    background-color: #f0f0f0;
+}
+
+.dx-datagrid .dx-pager {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+}
