@@ -8,7 +8,7 @@ Este repositorio contiene el desarrollo completo de la evaluación técnica soli
 - `frontend/`: Aplicación React con DevExtreme para visualizar los datos y filtros.
 - `database/`: Archivo SQL necesario para importar la base de datos correctamente en PostgreSQL.
 
-## 📦 Stack Tecnológico
+## Stack Tecnológico
 
 - **Backend**: NestJS, TypeORM, PostgreSQL
 - **Frontend**: React, Vite, TypeScript, DevExtreme
@@ -17,7 +17,7 @@ Este repositorio contiene el desarrollo completo de la evaluación técnica soli
 
 ---
 
-## ▶️ Cómo ejecutar
+## Cómo ejecutar
 
 1. Clona el repositorio.
 2. Sigue las instrucciones específicas en los READMEs de cada carpeta.
